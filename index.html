@@ -1,5 +1,15 @@
 <html>
     <body>
+        <div id="ton-connect"></div>
         hello world
+        <script>
+            const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+                manifestUrl: 'https://archero.ttgames.xyz/tonconnect-manifest.json',
+                buttonRootId: 'ton-connect'
+            });
+        </script>
+        <!-- Eruda is console for mobile browsers -->
+        <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+        <script>eruda.init();</script>
     </body>
 </html>
