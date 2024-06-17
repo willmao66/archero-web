@@ -1,15 +1,15 @@
-<html>
-    <body>
-        <div id="ton-connect"></div>
-        hello world
-        <script>
-            const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-                manifestUrl: 'https://archero.ttgames.xyz/tonconnect-manifest.json',
-                buttonRootId: 'ton-connect'
-            });
-        </script>
-        <!-- Eruda is console for mobile browsers -->
-        <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
-        <script>eruda.init();</script>
-    </body>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TON Connect Example</title>
+    <script src="https://unpkg.com/@tonconnect/ui@latest"></script>
+</head>
+<body>
+    <h1>TON Connect Example</h1>
+    <button id="connectButton">Connect to TON Wallet</button>
+
+    <script src="main.js"></script>
+</body>
 </html>
