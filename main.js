@@ -1,17 +1,6 @@
-document.getElementById('connectButton').addEventListener('click', async () => {
-    try {
-        // 使用 TON Connect SDK
-        const ton = new TonConnect({
-            manifestUrl: 'https://archero.ttgames.xyz/manifest/archero.json' // 替换为你的manifest URL
-        });
+import TonConnectUI from '@tonconnect/ui';
 
-        // 请求连接
-        const response = await ton.connect({
-            permissions: ['account']
-        });
-
-        console.log('Connected:', response);
-    } catch (error) {
-        console.error('Connection failed:', error);
-    }
+const tonConnectUI = new TonConnectUI({ //连接应用
+    manifestUrl: 'https://archero.ttgames.xyz/manifest/arhero.json',
+    buttonRootId: 'connectButton'
 });
