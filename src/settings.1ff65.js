@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["default"],collisionMatrix:[[true]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/Scene/helloworld.fire",orientation:"",jsList:["assets/Script/tonconnect-sdk.min.45a76.js","assets/Script/tonconnect-ui.min.f8197.js"],bundleVers:{internal:"d17e2",main:"3a8c1"}};
